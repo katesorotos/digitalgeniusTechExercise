@@ -9,7 +9,8 @@ on a customer ticket.
 
 *Assumptions*
 - Linux / Mac terminal
-- Basic terminal usage 
+- Basic terminal proficiency 
+- Access to Gorgias platform, and .env file with relevant aithentication
 
 *Running*
 - Setup virtual environment - `$ python3 -m venv .`
