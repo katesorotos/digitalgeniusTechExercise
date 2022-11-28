@@ -1,14 +1,23 @@
-## Project Title
+## Project title
 DG SE Technical Exercise
 
 ## Description
 Building a small integration with the Gorgias platform. This project features a script with a function that uses Gorgias REST APIs to automatically send a reply and internal note
 on a customer ticket.
 
-## How to run
-Open a command-line and type in the word python, or python3 followed by the path to the script: 
+## Running
 
-$ python3 main.py 
+*Assumptions*
+- Linux / Mac terminal
+- Basic terminal usage 
+
+*Running*
+- Setup virtual environment - `$ python3 -m venv .`
+- Activate virtual environment -`$ source bin/activate`
+- Run script - `$ python3 main.py`
+- Hardcoded variables can be overriden 
+
+ 
 
 ## What's inside?
 A look at the top-level files:
