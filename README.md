@@ -8,10 +8,10 @@ on a customer ticket.
 ## How to run
 Open a command-line and type in the word python, or python3 followed by the path to the script: 
 
-$ python3 main.py 
+$ python3 digitalgeniusTechExercise/main.py 
 
 ## What's inside?
-A quick look at the top-level files.
+A look at the top-level files:
 
 main.py: Point of execution for the project. 
 
