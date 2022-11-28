@@ -10,7 +10,7 @@ on a customer ticket.
 *Assumptions*
 - Linux / Mac terminal
 - Basic terminal proficiency 
-- Access to Gorgias platform, and .env file with relevant aithentication
+- Access to Gorgias platform, and .env file with relevant authentication
 
 *Running*
 - Setup virtual environment - `$ python3 -m venv .`
@@ -28,3 +28,11 @@ main.py: Point of execution for the project.  <br />
 .gitignore: This file tells git which files it should not track / not maintain a version history for. <br />
 README.md: A text file containing reference information. <br />
 requirements.txt: A file listing all the dependencies for the project. 
+
+## TODO
+
+- Logging
+- ArgParse
+- Unit Tests
+- Deployment CI/CD 
+- Refactor of functions depending on desired workflow
