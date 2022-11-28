@@ -12,11 +12,11 @@ headers = {
 }
 
 def send_email_reply(ticket_id, user, body, authentication):
-    """Function to automatically send email reply and internal note to ticket using Gorgias REST API
+    """Function to automatically send email reply to ticket using Gorgias REST API
         Parameters:
         Ticket ID(int),
         Agent User(int),
-        Email Text(string),
+        Body(string),
         Authentication(string)
         """
     url = f'https://dgexercise.gorgias.com/api/tickets/{ticket_id}'
@@ -56,11 +56,11 @@ def send_email_reply(ticket_id, user, body, authentication):
     print(response.text)
 
 def leave_internal_note(ticket_id, user, body, authentication):
-    """Function to automatically send email reply and internal note to ticket using Gorgias REST API
+    """Function to automatically leave an internal note to ticket using Gorgias REST API
             Parameters:
             Ticket ID(int),
             Agent User(int),
-            Email Text(string),
+            Body(string),
             Authentication (string),
             """
 
@@ -83,4 +83,4 @@ def leave_internal_note(ticket_id, user, body, authentication):
 
 
 leave_internal_note(13228870, 36331423, "This is an internal note test", os.environ.get("AUTHORISATION"))
-send_email_reply(13228870, 36331423, "test", os.environ.get("AUTHORISATION"))
+send_email_reply(13228870, 36331423, "Help with my query", os.environ.get("AUTHORISATION"))
