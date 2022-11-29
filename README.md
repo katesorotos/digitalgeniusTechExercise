@@ -15,6 +15,7 @@ on a customer ticket.
 *Running*
 - Setup virtual environment - `$ python3 -m venv .`
 - Activate virtual environment -`$ source bin/activate`
+- Install requirements `pip install -r requirements.txt`
 - Run script - `$ python3 main.py`
 - Hardcoded variables can be overriden 
 
